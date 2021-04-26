@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/rajkumbhar/bank/static/js/main.ebab78b9.chunk.js",
+    "main.js.map": "/rajkumbhar/bank/static/js/main.ebab78b9.chunk.js.map",
+    "runtime-main.js": "/rajkumbhar/bank/static/js/runtime-main.03b563a5.js",
+    "runtime-main.js.map": "/rajkumbhar/bank/static/js/runtime-main.03b563a5.js.map",
+    "static/js/2.2f62dccc.chunk.js": "/rajkumbhar/bank/static/js/2.2f62dccc.chunk.js",
+    "static/js/2.2f62dccc.chunk.js.map": "/rajkumbhar/bank/static/js/2.2f62dccc.chunk.js.map",
+    "index.html": "/rajkumbhar/bank/index.html",
+    "static/js/2.2f62dccc.chunk.js.LICENSE.txt": "/rajkumbhar/bank/static/js/2.2f62dccc.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.03b563a5.js",
+    "static/js/2.2f62dccc.chunk.js",
+    "static/js/main.ebab78b9.chunk.js"
+  ]
+}
