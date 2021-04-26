@@ -1,0 +1,499 @@
+body {
+    margin: 0px;
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form {
+    background-color: #5F939A;
+    height: 400px;
+    width: 400px;
+    text-align: center;
+    position: relative;
+    margin: auto;
+    top: 100px;
+
+    border-radius: 10px;
+}
+
+.register-form {
+    background-color: #31326f;
+    height: 580px;
+    width: 400px;
+
+    position: relative;
+    margin: auto;
+    top: 100px;
+    box-shadow: 1px 1px 20px 9px rgba(0, 0, 0, 0.39);
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color: white;
+}
+
+.h1 {
+    padding-top: 50px;
+    color: white;
+    font-weight: 300;
+}
+
+.l-input {
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    height: 48px;
+    width: 300px;
+    border: none;
+    border-radius: 10px;
+    padding-left: 20px;
+    position: relative;
+    top: 20px;
+    outline: none;
+
+    font-size: 1.3rem;
+}
+
+.button {
+    display: block;
+    margin: auto;
+    border: none;
+    border-radius: 10px;
+    width: 300px;
+    height: 32px;
+    margin-bottom: 10px;
+    outline: none;
+    cursor:pointer;
+    padding-top: 9px;
+
+    font-size: 1.2rem;
+    font-weight: 300;
+    
+    
+    position: relative;
+    top: 50px;
+
+    background-color: #ffc93c;
+}
+
+.button:hover {
+    background-color: #b68f2c;
+    color: white;
+}
+
+::placeholder{
+    font-size: 1rem;
+}
+
+
+
+/* product page*/
+.product-input {
+    width: 400px;
+    position: relative;
+    top: 100px;
+    box-shadow: 1px 1px 20px 3px rgba(0, 0, 0, 0.39);
+}
+.search-icon-btn {
+    height: 40px;
+    width: 40px;
+    position: relative;
+    left: 175px;
+    top: 48px;
+    outline: none;
+    border: none;
+    background-color:transparent;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.search-icon-btn:hover{
+    background-color:transparent;
+    font-size: 33px;
+}
+
+/* heading */
+
+.company-name {
+    position: relative;
+    text-align: center;
+    top: 23px;
+    font-size: 2rem;
+    font-weight: 500;
+    color: #1b2021;
+}
+
+.logo-card {
+    text-align: center;
+    width: 100%;
+    background-color: #d8ac9c;
+    height: 80px;
+    box-shadow: 1px 1px 20px 9px rgba(0, 0, 0, 0.39);
+}
+
+.medicine-logo {
+    position: absolute;
+    left: 30px;
+    top: 13px;
+    height: 50px;
+    width: 50px;
+}
+
+/*medicine*/
+
+#medicine {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    box-shadow: 1px 1px 20px 4px rgba(0, 0, 0, 0.39);
+    margin: auto;
+    margin-top: 190px ;
+    margin-bottom: 100px;
+  }
+  
+  #medicine td, #medicine th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #medicine tr:hover {background-color: #ddd;}
+  
+  #medicine th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #31326f;
+    color: white;
+  }
+
+  /*Add btn*/
+
+  .add-btn {
+    position: relative;
+    top: 130px;
+    margin: auto;
+    margin-right: 30px;
+    border: none;
+    border-radius: 10px;
+    width: 190px;
+    height: 32px;
+    outline: none;
+    cursor:pointer;
+    padding: 9px;
+    box-shadow: 1px 1px 10px 2px rgba(0, 0, 0, 0.39);
+    font-size: 1.2rem;
+    font-weight: 300;
+
+    background-color: #ffc93c;
+  }
+
+
+  /*registration form*/
+
+.r-container {
+    background-color: #5F939A;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    max-width: 800px;
+    width: 100%;
+    padding: 25px 30px;
+    border-radius: 10px;
+    
+}
+
+.r-container .r-title {
+    font-size: 35px;
+    font-weight: 500;
+    position: relative;
+}
+
+
+.r-container form .r-user-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+}
+
+form .r-user-details .r-input-box{
+    margin-bottom: 15px;
+    width: calc(100% / 2 - 20px); 
+}
+
+/*Select input*/
+.r-user-details .r-input-box select{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    background: white;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    border-bottom-width: 3px;
+    transition: all 0.3 ease;
+}
+
+.r-input-box .r-option option {
+    color: red;
+}
+
+.r-user-details .r-input-box input{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    background: white;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    border-bottom-width: 3px;
+    transition: all 0.3 ease;
+}
+
+
+::placeholder{ 
+    font-size: 18px;
+}
+.r-input {
+    font-size: 20px;
+}
+
+.r-user-details .r-input-box .r-details{
+    display: block;
+    font-weight: 500;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+.r-user-details .r-input-box input:focus,
+.r-user-details .r-input-box input:valid {
+    border-color: black;
+}
+
+form .r-gender-details .r-gender-title {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+form .r-gender-details .r-catagory {
+    display: flex;
+    width: 70%;
+    margin: 14px 0;
+    justify-content: space-between;
+}
+
+.r-gender-details .r-catagory label {
+    display: flex;
+    align-items: center;
+}
+
+.r-gender-details .r-catagory .r-dot{
+    height: 15px;
+    width: 15px;
+    background:white;
+    border-radius: 50%;
+    margin-right: 10px;
+    border: 5px solid transparent;
+    transition: all 0.3s ease;
+}
+#dot-1:checked ~ .r-catagory label .one,
+#dot-2:checked ~ .r-catagory label .two,
+#dot-3:checked ~ .r-catagory label .three {
+    border-color: #d9d9d9;
+    background: #5F939A;
+}
+
+form input[type="radio"] {
+    display: none;
+}
+
+ form .r-button {
+     height: 45px;
+     margin: 45px 0;
+ }
+
+ form .r-reg-btn {
+    height: 45px;
+    margin: 20px 0;
+}
+
+ form .r-button input {
+     height: 100%;
+     width: 100%;
+     outline: none;
+     border: none;;
+     font-size: 20px;
+     font-weight: 500;
+     border-radius: 5px;
+     letter-spacing: 1px;
+     background: white;
+ }
+
+ form .r-reg-btn input {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: none;;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 5px;
+    letter-spacing: 1px;
+     background-color: #ffc93c;
+ }
+
+ form .r-button input:hover {
+    background: #ffc93c;
+ }
+
+ form .r-reg-btn input:hover {
+     background-color: white;
+ }
+
+ @media (max-width: 584px) {
+     .logo-card{
+         width: 100%;
+     }
+     .r-container {
+         max-width: 100%;
+     }
+     form .r-user-details .r-input-box{
+         margin-bottom: 15px;
+         width: 100%;
+     }
+
+     form .r-gender-details .r-catagory {
+         width: 80%;
+     }
+
+     .r-container form .r-user-details {
+         max-height: 600px;
+         overflow-y: scroll;
+     }
+
+     .r-user-details::-webkit-scrollbar {
+         width: 0;
+     }
+     .r-container {
+         margin-top: 150px;
+     }
+ }
+
+
+ /*Home Page*/
+
+ .h-welcomePlate {
+     background-color: #5F939A;
+     margin: 22px 0px;
+     width: 100%;
+     border-radius: 5px;
+ }
+
+ .h-welcomePlate .h-welcomePlate-details {
+     width: 99%;
+     display: flex;
+     color: white;
+ }
+
+ .h-welcomePlate .h-welcomePlate-details .h-title {
+     padding-left: 20px;
+     font-weight: 300;
+     font-family: 'Roboto', sans-serif;
+ }
+ .h-welcomePlate .h-welcomePlate-details .h-time-logout {
+     width: 100px;
+     text-align: center;
+     margin-left: auto;
+ }
+
+ 
+ .h-logout-btn {
+    outline: none;
+    border: none;;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+ }
+
+
+ .h-acc {
+    background-color: #4e7b81;
+    margin: 22px 0px;
+    max-width: 900px;
+    width: 100%;
+    margin: auto;
+    border-radius: 5px;
+    padding: 10px;
+    
+ }
+
+ .h-acc .h-acc-details {
+    width: 90%;
+    font-size: 20px;
+    padding-left: 10px;
+    display: block;
+    color: white;
+ }
+
+ .h-acc .h-acc-details span {
+     font-size: 20px;
+     font-weight: 500;
+     color: black;
+ }
+
+
+ /*action buttons */
+
+ .h-btn {
+     border-radius: 5px;
+     max-width: 920px;
+     width: 100%;
+     height: 40px;
+     margin: auto;
+     margin-top: 20px;
+     text-align: center;
+ }
+
+ .h-btn .h-action-btn {
+    border: none;
+    border-radius: 10px;
+    width: 23%;
+    height: 100%;
+    outline: none;
+    cursor:pointer;
+    margin: 0 10px;
+    font-size: 1.2rem;
+    font-weight: 300;
+    background-color: #ffc93c;
+    box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.39);
+ }
+ 
+ @media (max-width: 680px) {
+    .h-btn .h-action-btn {
+        width: 100%;
+        margin: 5px 0px;
+    }
+    .r-container {
+        margin-top: 150px;
+    }
+
+ }
+
+ .h-btn .h-action-btn:hover {
+    background-color: #a3863b;
+    color: white;
+ }
+
+ /* Send Moeny*/
+
+ #NEFT:checked ~ .r-catagory label .one,
+ #RTGS:checked ~ .r-catagory label .two,
+ #IMPS:checked ~ .r-catagory label .three {
+     border-color: #d9d9d9;
+     background: #5F939A;
+ }
